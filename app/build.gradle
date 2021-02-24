@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.thangtd.jackystore"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 5
+        versionName "1.0.5"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.github.viethoa:fastscroller:1.2.0'
+    implementation 'com.journeyapps:zxing-android-embedded:3.4.0'
+    implementation files('libs/android-async-http-1.4.4.jar')
+    implementation files('libs/opencsv-4.2.jar')
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.8'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'com.github.deano2390:MaterialShowcaseView:1.2.0'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation "com.zing.zalo.zalosdk:core:2.4.2501.1"
+    implementation "com.zing.zalo.zalosdk:auth:2.4.2501.1"
+}

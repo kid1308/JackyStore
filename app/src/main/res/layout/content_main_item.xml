@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="8dp"
+    android:paddingTop="16dp"
+    android:paddingEnd="8dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/item_ISBN"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/item_TITLE"
+        style="@style/text16Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khuyến học" />
+
+    <TextView
+        android:id="@+id/item_AUTHOR"
+        style="@style/text12DefaultColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_TITLE"
+        android:text="Fukuzawa Yukichi" />
+
+    <TextView
+        android:id="@+id/item_FINISHED_DATE"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <ImageView
+        android:id="@+id/item_STATUS"
+        style="@style/text12DefaultColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_TITLE"
+        android:layout_alignEnd="@+id/item_YEAR"
+        android:layout_alignBottom="@id/item_AUTHOR"
+        android:layout_marginEnd="64dp"
+        android:src="@drawable/ic_checked_green" />
+
+    <TextView
+        android:id="@+id/item_YEAR"
+        style="@style/text12DefaultColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/item_STATUS"
+        android:layout_alignBottom="@+id/item_STATUS"
+        android:layout_alignParentEnd="true"
+        android:text="2017" />
+</RelativeLayout>

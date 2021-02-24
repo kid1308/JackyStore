@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appID">3170847973634508731</string>
+    <string name="appSec">AESfBhUGJOJ9Rh64YHMw</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Title -->
+    <string name="title_activity_book_details">BookDetails</string>
+    <string name="title_activity_book_home">BookHome</string>
+    <string name="title_activity_book_edit">BookEdit</string>
+    <string name="title_activity_statistics">Summary</string>
+
+    <!-- Menu -->
+    <string name="str_books_local">Local</string>
+    <string name="str_books_foreign">Foreign</string>
+    <string name="str_books_manga">Manga - Comic</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_check">Done</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_image_camera">Take a picture</string>
+    <string name="action_image_gallery">Choose from gallery</string>
+    <string name="action_import">Import</string>
+    <string name="action_export">Export</string>
+    <string name="action_statistics">Statistics</string>
+    <string name="action_search">Search</string>
+    <string name="action_about">About</string>
+
+    <!-- Book add -->
+    <string name="book_add_general">General</string>
+    <string name="book_add_personal">Personal</string>
+    <string name="str_isbn">ISBN</string>
+    <string name="str_title">Title</string>
+    <string name="str_author">Author</string>
+    <string name="str_translator">Translator</string>
+    <string name="str_publisher">Publisher</string>
+    <string name="str_date_added">Added date</string>
+    <string name="str_date_published">Released date</string>
+    <string name="str_date_purchased">Purchased date</string>
+    <string name="str_date_finished">Finished date</string>
+    <string name="str_location">Location</string>
+    <string name="str_pages">Pages</string>
+    <string name="str_note">Note</string>
+    <string name="str_kind">Kind</string>
+    <string name="str_personal_detail">Personal\'s info</string>
+
+    <string name="str_books_in_store"> books in library</string>
+    <string name="str_list_header">books have been </string>
+    <string name="dialog_header_confirm">Confirmation</string>
+    <string name="dialog_exit_title">Exit</string>
+    <string name="confirm_finish">Do you finish </string>
+    <string name="confirm_delete">Are you sure you want to delete?</string>
+    <string name="confirm_exit">Are you sure you want to exit?</string>
+    <string name="text_save">Save</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="text_ok">OK</string>
+
+    <string name="dialog_welcome_title">Welcome</string>
+    <string name="dialog_welcome_message">Please enter your library name</string>
+
+    <string name="dialog_export_title">Export</string>
+    <string name="dialog_export_message">Naming your export file&#8230;</string>
+
+    <!-- Statistics -->
+    <string name="tab_text_1">Book kind</string>
+    <string name="tab_text_2">Total</string>
+    <string name="description_pie_01">This year</string>
+    <string name="description_pie_02">All time</string>
+    <string name="label_read">Read</string>
+    <string name="label_unread">Unread</string>
+    <string name="center_total">Total</string>
+
+    <string-array name="bookKind">
+        <item>Vietnamese</item>
+        <item>Foreign</item>
+        <item>Manga</item>
+    </string-array>
+
+    <string-array name="imageActions">
+        <item>Take a picture</item>
+        <item>Choose from gallery</item>
+    </string-array>
+
+    <string-array name="statisticsType">
+        <item>Buying</item>
+        <item>Reading</item>
+    </string-array>
+
+    <string-array name="filterType">
+        <item>purchased</item>
+        <item>finished</item>
+    </string-array>
+
+    <string-array name="filterYear">
+        <item>this year</item>
+        <item>last year</item>
+    </string-array>
+
+    <!-- Showcase -->
+    <string name="showcase_add_button">Click here to add a new book.</string>
+    <string name="showcase_got_it">GOT IT</string>
+    <string name="showcase_begin">Let\'s start</string>
+
+    <!-- About -->
+    <string name="app_name">Jacky\'s Library</string>
+    <string name="app_version">v</string>
+    <string name="email">thangtd1308@gmail.com</string>
+
+    <string name="about">
+        \tMany of book management applications have too much information, with too many input fields
+        which user do not need, or even do not know about that before.\n
+        \n
+        \t<b>Jacky Library</b> help people spend more time to read than to insert book into the application.
+    </string>
+
+    <string name="error_404">Not found!</string>
+    <string name="error_500">Internal server error!</string>
+    <string name="error_">Error occurred! Please contact administrator.</string>
+    <string name="error_invalid_data">Invalid data!</string>
+    <string name="error_isbn_mismatch">ISBN mismatch!</string>
+    <string name="error_isbn_missing">ISBN is required!</string>
+</resources>

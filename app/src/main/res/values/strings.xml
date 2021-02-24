@@ -1,0 +1,126 @@
+<resources>
+
+    <string name="appID">3170847973634508731</string>
+    <string name="appSec">AESfBhUGJOJ9Rh64YHMw</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Title -->
+    <string name="title_activity_book_details">Chi tiết</string>
+    <string name="title_activity_book_home">Trang chủ</string>
+    <string name="title_activity_book_edit">Cập nhật</string>
+    <string name="title_activity_statistics">Thống kê</string>
+
+    <!-- Menu -->
+    <string name="str_books_local">Văn học trong nước</string>
+    <string name="str_books_foreign">Văn học nước ngoài</string>
+    <string name="str_books_manga">Truyện tranh</string>
+    <string name="action_settings">Cấu hình</string>
+    <string name="action_check">Xong</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_image_camera">Chụp ảnh</string>
+    <string name="action_image_gallery">Chọn từ thư viện ảnh</string>
+    <string name="action_import">Nhập dữ liệu</string>
+    <string name="action_export">Xuất dữ liệu</string>
+    <string name="action_statistics">Thống kê</string>
+    <string name="action_search">Tìm</string>
+    <string name="action_about">Về Jacky Library</string>
+
+    <!-- Book add -->
+    <string name="book_add_general">Thông tin chính</string>
+    <string name="book_add_personal">Thông tin cá nhân</string>
+    <string name="str_isbn">ISBN</string>
+    <string name="str_title">Tên</string>
+    <string name="str_author">Tác giả</string>
+    <string name="str_translator">Dịch giả</string>
+    <string name="str_publisher">Nhà xuất bản</string>
+    <string name="str_date_added">Ngày thêm</string>
+    <string name="str_date_published">Phát hành</string>
+    <string name="str_date_purchased">Ngày mua</string>
+    <string name="str_date_finished">Ngày đọc xong</string>
+    <string name="str_location">Vị trí</string>
+    <string name="str_pages">Số trang</string>
+    <string name="str_note">Ghi chú</string>
+    <string name="str_kind">Loại</string>
+    <string name="str_personal_detail">Thông tin thêm</string>
+
+    <string name="str_books_in_store"> cuốn sách trong thư viện</string>
+    <string name="str_list_header">cuốn sách đã</string>
+    <string name="dialog_header_confirm">Xác nhận</string>
+    <string name="dialog_exit_title">Thoát</string>
+    <string name="confirm_finish">Bạn đã đọc xong </string>
+    <string name="confirm_delete">Bạn chắc chắn muốn xóa?</string>
+    <string name="confirm_exit">Bạn muốn thoát khỏi chương trình?</string>
+    <string name="text_save">Xác nhận</string>
+    <string name="text_cancel">Hủy</string>
+    <string name="text_yes">Có</string>
+    <string name="text_no">Không</string>
+    <string name="text_ok">OK</string>
+
+    <string name="dialog_welcome_title">Xin chào</string>
+    <string name="dialog_welcome_message">Hãy đặt tên cho thư viện của bạn</string>
+
+    <string name="dialog_export_title">Xuất dữ liệu</string>
+    <string name="dialog_export_message">Hãy đặt tên cho tập tin dữ liệu&#8230;</string>
+
+    <!-- Statistics -->
+    <string name="tab_text_1">Phân loại</string>
+    <string name="tab_text_2">Tất cả</string>
+    <string name="description_pie_01">Năm nay</string>
+    <string name="description_pie_02">Tất cả</string>
+    <string name="label_read">Đã đọc</string>
+    <string name="label_unread">Chưa đọc</string>
+    <string name="center_total">Tổng cộng</string>
+
+    <string name="showcase_add_button">Bấm nút này để thêm sách mới.</string>
+
+    <string name="showcase_got_it">Tôi đã hiểu</string>
+
+    <string name="showcase_begin">Bắt đầu</string>
+
+    <string name="app_name">Jacky\'s Library</string>
+
+    <string name="app_version">v</string>
+
+    <!-- Showcase -->
+    <string name="email">thangtd1308@gmail.com</string>
+    <string name="about">
+        \tĐiểm chung của đa số ứng dụng quản lý sách đã có là lưu quá nhiều thông tin,
+        trong đó có những thông tin bạn chẳng bao giờ xem đến, thậm chí là không biết nó có tồn tại.\n
+        \n
+        \t<b>Jacky Library</b> viết ra với mục đích giúp mọi người dành nhiều thời gian để đọc sách hơn,
+        hướng người dùng đến việc đọc sách chứ không phải là nhập thông tin sách.
+    </string>
+    <string name="error_404">Không tìm thấy dữ liệu!</string>
+
+    <!-- About -->
+    <string name="error_500">Kết nối tới máy chủ bị lỗi!</string>
+    <string name="error_">Có lỗi xảy ra! Vui lòng liên hệ người quản trị.</string>
+    <string name="error_invalid_data">Dữ liệu không chính xác!</string>
+    <string name="error_isbn_mismatch">Mã vạch không có dữ liệu! Tự nhập tay đi nha :)</string>
+
+    <string name="error_isbn_missing">Chưa nhập dữ liệu bắt buộc!</string>
+    <string name="title_activity_zalo_login">ZaloLogin</string>
+    <string-array name="bookKind">
+        <item>Văn học trong nước</item>
+        <item>Văn học nước ngoài</item>
+        <item>Truyện tranh</item>
+    </string-array>
+    <string-array name="imageActions">
+        <item>Chụp ảnh</item>
+        <item>Chọn từ thư viện ảnh</item>
+    </string-array>
+    <string-array name="statisticsType">
+        <item>Thống kê mua</item>
+        <item>Thống kê đọc</item>
+    </string-array>
+    <string-array name="filterType">
+        <item>Mua</item>
+        <item>Đọc</item>
+    </string-array>
+    <string-array name="filterYear">
+        <item>năm nay</item>
+        <item>năm ngoái</item>
+    </string-array>
+</resources>

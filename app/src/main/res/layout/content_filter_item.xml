@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="8dp"
+    android:paddingTop="16dp"
+    android:paddingEnd="8dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/filterISBN"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/filterTITLE"
+        style="@style/text16Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khuyến học" />
+
+    <TextView
+        android:id="@+id/filterAUTHOR"
+        style="@style/text12DefaultColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filterTITLE"
+        android:text="Fukuzawa Yukichi" />
+
+    <ImageView
+        android:id="@+id/filterSTATUS"
+        style="@style/text12DefaultColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filterTITLE"
+        android:layout_alignEnd="@+id/filterFINISHED_DATE"
+        android:layout_alignBottom="@id/filterAUTHOR"
+        android:layout_marginEnd="64dp"
+        android:src="@drawable/ic_checked_green" />
+
+    <TextView
+        android:id="@+id/filterPURCHASED_DATE"
+        style="@style/text12DefaultColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/filterSTATUS"
+        android:layout_alignBottom="@+id/filterSTATUS"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/filterFINISHED_DATE"
+        style="@style/text12DefaultColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/filterSTATUS"
+        android:layout_alignBottom="@+id/filterSTATUS"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/filterYEAR"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+</RelativeLayout>

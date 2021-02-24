@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/section_01"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_books_vn"
+            android:icon="@drawable/ic_local_black_48dp"
+            android:title="@string/str_books_local" />
+        <item
+            android:id="@+id/nav_books_foreign"
+            android:icon="@drawable/ic_foreign_black_48dp"
+            android:title="@string/str_books_foreign" />
+        <item
+            android:id="@+id/nav_books_manga"
+            android:icon="@drawable/ic_manga_black_48dp"
+            android:title="@string/str_books_manga" />
+    </group>
+
+    <group
+        android:id="@+id/section_02"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_statistics"
+            android:icon="@drawable/ic_chart_arc_black_48dp"
+            android:title="@string/action_statistics" />
+    </group>
+
+    <group
+        android:id="@+id/section_03"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_import_list"
+            android:icon="@drawable/ic_import_black_48dp"
+            android:title="@string/action_import" />
+        <item
+            android:id="@+id/action_export_list"
+            android:icon="@drawable/ic_export_black_48dp"
+            android:title="@string/action_export" />
+    </group>
+
+    <group
+        android:id="@+id/section_04"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_about"
+            android:icon="@drawable/ic_alert_circle_outline_black_48dp"
+            android:title="@string/action_about" />
+    </group>
+</menu>
